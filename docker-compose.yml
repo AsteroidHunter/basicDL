@@ -7,7 +7,7 @@ services:
       - "5441:8080"
     volumes:
       - type: bind
-        source: /speedy/eduong/wandb
+        source: /Users/ericduong/Documents/Data/wandb
         target: /vol
     environment:
       - HOST=http://localhost:5441
